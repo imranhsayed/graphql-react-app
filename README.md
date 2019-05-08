@@ -11,7 +11,7 @@
 
 ## Instructions
 
-Please follow the README for individual repositories
+Please follow the README for individual repositories.
 
 ## Common Commands
 
