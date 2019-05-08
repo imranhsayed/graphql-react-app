@@ -1,4 +1,5 @@
 # GraphQL React Application
+:bar_chart: A demo app for using GraphQl with React and Spacex API
 
 ## Installation
 
