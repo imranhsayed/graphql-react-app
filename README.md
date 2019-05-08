@@ -5,6 +5,10 @@
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/graphql-react-app`
 
+## Useful Links
+
+1. [Express GraphQL github link](https://github.com/graphql/express-graphql)
+
 ## Instructions
 
 Please follow the README for individual repositories
