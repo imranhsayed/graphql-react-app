@@ -11,6 +11,7 @@
 
 1. [Express GraphQL github link](https://github.com/graphql/express-graphql)
 2. [SpaceX-API](https://github.com/r-spacex/SpaceX-API)
+3. [SpaceX-Docs](https://docs.spacexdata.com/)
 
 ## Instructions
 
