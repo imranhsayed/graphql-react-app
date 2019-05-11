@@ -15,5 +15,8 @@
     "express": "^4.16.4",
     "express-graphql": "^0.8.0",
     "graphql": "^14.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }
