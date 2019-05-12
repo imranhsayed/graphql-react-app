@@ -3,13 +3,16 @@
 ## Description :clipboard:
 :bar_chart: A demo app for using GraphQl with React and Spacex API
 
-## Graphiql :black_square_button:
+## GraphiQL :black_square_button:
 ![](graphiql.png)
+
+## GraphiQL DEMO :video_camera:
+![](GraphiQL-demo.gif)
 
 
 ## Installation
 
-1. Clone this repo in `git clone https://github.com/imranhsayed/graphql-react-app`
+1. Clone this repo by running `git clone https://github.com/imranhsayed/graphql-react-app`
 2. `npm install`
 3. `npm run server`
 
