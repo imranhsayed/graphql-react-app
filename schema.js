@@ -1,9 +1,12 @@
+const axios = require( 'axios' );
+
 const {
 	GraphQLObjectType,
 	GraphQLInt,
 	GraphQLString,
 	GraphQLBoolean,
-	GraphQLList
+	GraphQLList,
+	GraphQLSchema
 } = require( 'graphql' );
 
 // RocketType
@@ -36,7 +39,8 @@ const RootQuery = new GraphQLObjectType({
 		launches: {
 			type: new GraphQLList( LaunchType ),
 			resolve( parent, args ){
-				
+				return axios.get( 'https://api.spacexdata.com/v3/launches' )
+					.then( res => res.data );
 			}
 		}
 	}
