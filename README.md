@@ -10,6 +10,8 @@
 ## Installation
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/graphql-react-app`
+2. `npm install`
+3. `npm run server`
 
 ## Useful Links :link:
 
