@@ -19,9 +19,10 @@
 
 ## Instructions
 
-Please follow the README for individual repositories.
+Graphiql is a tool that we can use as a client to make request to our server.
+Graph Ql will be avialable at `localhost:5000/graphql`
 
 ## Common Commands
 
-- `dev` Runs webpack dev server for development ( in watch mode )
-- `prod` Runs webpack in production mode
+- `server` Runs the server at `localhost:5000/graphql` in watch mode
+- `start` Runs the server at `localhost:5000/graphql` in non watch mode
