@@ -7,7 +7,7 @@
 ![](graphiql.png)
 
 
-## Installation :point_right:
+## Installation
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/graphql-react-app`
 
@@ -17,12 +17,12 @@
 2. [SpaceX-API](https://github.com/r-spacex/SpaceX-API)
 3. [SpaceX-Docs](https://docs.spacexdata.com/)
 
-## Instructions
+## Instructions :point_right:
 
 Graphiql is a tool that we can use as a client to make request to our server.
 Graph Ql will be avialable at `localhost:5000/graphql`
 
-## Common Commands
+## Common Commands :computer:
 
 - `server` Runs the server at `localhost:5000/graphql` in watch mode
 - `start` Runs the server at `localhost:5000/graphql` in non watch mode
