@@ -3,6 +3,10 @@
 ## Description
 :bar_chart: A demo app for using GraphQl with React and Spacex API
 
+## Graphiql
+![](graphiql.png)
+
+
 ## Installation
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/graphql-react-app`
