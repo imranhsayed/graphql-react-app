@@ -16,7 +16,9 @@ const LAUNCHES_QUERY = gql`
 class Launches extends React.Component {
 	render() {
 		return(
-			<div></div>
+			<div className="display-4 my-3">Launches</div>
 		);
 	}
 }
+
+export default Launches;
