@@ -19,7 +19,8 @@ class Launches extends React.Component {
 			<div>
 				<h1 className="display-4 my-3">Launches</h1>
 				<Query query={LAUNCHES_QUERY}>
-					{ ( loading, error, data ) => {
+					{ ( {loading, error, data} ) => {
+						console.warn( data );
 						if ( loading ) {
 							return <h4>Loading...</h4>
 						}
