@@ -29,5 +29,7 @@ Graph Ql will be avialable at `localhost:5000/graphql`
 
 ## Common Commands :computer:
 
-- `server` Runs the server at `localhost:5000/graphql` in watch mode
-- `start` Runs the server at `localhost:5000/graphql` in non watch mode
+1. `npm run dev:webpack` runs webpack-dev-server for frontend on port 3000 in watch mode 
+2. `npm run server` runs node server for backend on `localhost:5000/graphql`
+3. `npm run dev` would run both front end and backend servers on their respective ports, using concurrently
+4. `start` Runs the server at `localhost:5000/graphql` in non watch mode
