@@ -12,7 +12,7 @@
     "prod": "webpack --mode=production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Imran Sayed",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
