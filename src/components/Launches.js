@@ -16,7 +16,7 @@ const LAUNCHES_QUERY = gql`
 class Launches extends React.Component {
 	render() {
 		return(
-			<div>
+			<React.Fragment>
 				<h1 className="display-4 my-3">Launches</h1>
 				<Query query={LAUNCHES_QUERY}>
 					{ ( {loading, error, data} ) => {
@@ -31,7 +31,7 @@ class Launches extends React.Component {
 						return <h1>Test</h1>
 					} }
 				</Query>
-			</div>
+			</React.Fragment>
 		);
 	}
 }
