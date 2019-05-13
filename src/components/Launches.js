@@ -18,7 +18,7 @@ class Launches extends React.Component {
 		return(
 			<div>
 				<h1 className="display-4 my-3">Launches</h1>
-				<Query client={LAUNCHES_QUERY}>
+				<Query query={LAUNCHES_QUERY}>
 					{ ( loading, error, data ) => {
 						if ( loading ) {
 							return <h4>Loading...</h4>
@@ -26,6 +26,7 @@ class Launches extends React.Component {
 						if ( error ) {
 							console.warn( error );
 						}
+						console.warn( data );
 						return <h1>Test</h1>
 					} }
 				</Query>
