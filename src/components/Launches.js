@@ -16,7 +16,20 @@ const LAUNCHES_QUERY = gql`
 class Launches extends React.Component {
 	render() {
 		return(
-			<div className="display-4 my-3">Launches</div>
+			<div>
+				<h1 className="display-4 my-3">Launches</h1>
+				<Query client={LAUNCHES_QUERY}>
+					{ ( loading, error, data ) => {
+						if ( loading ) {
+							return <h4>Loading...</h4>
+						}
+						if ( error ) {
+							console.warn( error );
+						}
+						return <h1>Test</h1>
+					} }
+				</Query>
+			</div>
 		);
 	}
 }
