@@ -4,11 +4,9 @@
 :bar_chart: A demo app for using GraphQl with React and Spacex API
 
 ## GraphiQL :black_square_button:
-
 ![](graphiql.png)
 
 ## GraphiQL DEMO :video_camera:
-
 ![](GraphiQL-demo.gif)
 
 
