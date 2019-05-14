@@ -7,6 +7,7 @@
 ![](graphiql.png)
 
 ## GraphiQL DEMO :video_camera:
+
 ![](GraphiQL-demo.gif)
 
 
