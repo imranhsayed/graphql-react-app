@@ -2,6 +2,7 @@ import React from 'react';
 import gql from 'graphql-tag';
 import { Query } from "react-apollo";
 import LaunchItem from './LaunchItem';
+import Loader from '../loader.gif';
 
 const LAUNCHES_QUERY = gql`
 	query LaunchesQuery {
@@ -22,7 +23,7 @@ class Launches extends React.Component {
 				<Query query={LAUNCHES_QUERY}>
 					{ ( {loading, error, data} ) => {
 						if ( loading ) {
-							return <h4>Loading...</h4>
+							return <img src={Loader} alt=""/>
 						}
 						if ( error ) {
 							console.warn( error );
