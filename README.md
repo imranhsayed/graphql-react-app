@@ -1,7 +1,8 @@
 # GraphQL React Application
 
 ## Description :clipboard:
-:bar_chart: A demo app for using GraphQl with React and SpaceX API
+:bar_chart: 
+> A demo app for using GraphQl with React and SpaceX API
 
 ## GraphQL App DEMO :video_camera:
 ![](GraphQl-SpaceX-Demo.gif)
@@ -13,7 +14,7 @@
 3. :arrow_right: The schema and graphQl queries are created in `schema.js`
 4. :arrow_right: We have used axios to fetch data using SpaceX API, in the created queries. ( e.g. API URL: `https://api.spacexdata.com/v3/launches` )
 5. :arrow_right: GraphiQL playground is available on `localhost:5000/graphql`. Check demo.
-6. :arrow_right: We use Appolo Client to build UI in React that fetches data from GraphQL
+6. :arrow_right: We have used Appolo Client to build UI in React that fetches data from GraphQL
 7. :arrow_right: React components are created and wrapped them inside `<AppoloProvider>` and appolo `client` is then passed to these components.
 8. :arrow_right: Reach router is used to create routes for home and individual pages.
 9. :arrow_right: The `graphql-tag` ( graphQl query parsing utility ) is installed and `gpl` is imported from it. The `gpl` parses GraphQL query strings into the standard GraphQL AST.
@@ -57,3 +58,9 @@ Graph Ql will be avialable at `localhost:5000/graphql`
 2. `npm run server` runs node server for backend on `localhost:5000/graphql`
 3. `npm run dev` would run both front end and backend servers on their respective ports, using concurrently
 4. `start` Runs the server at `localhost:5000/graphql` in non watch mode
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
