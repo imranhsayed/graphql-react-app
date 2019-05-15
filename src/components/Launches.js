@@ -25,7 +25,7 @@ class Launches extends React.Component {
 				<Query query={LAUNCHES_QUERY}>
 					{ ( {loading, error, data} ) => {
 						if ( loading ) {
-							return <img src={Loader} alt=""/>
+							return <img className="launch-loader" src={Loader} alt="Loader"/>
 						}
 						if ( error ) {
 							console.warn( error );

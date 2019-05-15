@@ -3,6 +3,9 @@
 ## Description :clipboard:
 :bar_chart: A demo app for using GraphQl with React and Spacex API
 
+1. We set up our server in node for backend ( `localhost:5000/graphql` );
+2. We 
+
 ## GraphiQL :black_square_button:
 
 ![](graphiql.png)
