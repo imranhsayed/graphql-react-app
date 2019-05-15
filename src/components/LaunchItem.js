@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "@reach/router";
 
 export default ( props ) => {
 	const { data } = props;
@@ -17,7 +18,7 @@ export default ( props ) => {
 							<p className="text-muted">Date: {item.launch_date_local}</p>
 						</div>
 						<div className="col-md-3">
-							<button className="btn btn-secondary">Details</button>
+							<Link to={`/launch/${item.flight_number}`} className="btn btn-secondary">Details</Link>
 						</div>
 					</div>
 				)

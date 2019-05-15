@@ -5,6 +5,8 @@ import './Style.css';
 import ApolloClient from 'apollo-boost';
 import {ApolloProvider} from "react-apollo";
 import Launches from "./components/Launches";
+import Launch from './components/Launch';
+import { Router } from "@reach/router";
 
 const client = new ApolloClient({
 	uri: 'http://localhost:5000/graphql'
@@ -18,9 +20,13 @@ class App extends React.Component {
 					<div className="logo-container">
 						<img src={Logo} alt="Logo" className="logo"/>
 					</div>
-					<Launches/>
+					<Router>
+						<Launches path="/"/>
+						<Launch path="/launch/:id"/>
+					</Router>
 				</div>
 			</ApolloProvider>
+
 		)
 	}
 }
