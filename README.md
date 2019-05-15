@@ -1,7 +1,6 @@
 # GraphQL React Application
 
 ## Description :clipboard:
-:bar_chart: 
 > A demo app for using GraphQl with React and SpaceX API
 
 ## GraphQL App DEMO :video_camera:
@@ -58,6 +57,16 @@ Graph Ql will be avialable at `localhost:5000/graphql`
 2. `npm run server` runs node server for backend on `localhost:5000/graphql`
 3. `npm run dev` would run both front end and backend servers on their respective ports, using concurrently
 4. `start` Runs the server at `localhost:5000/graphql` in non watch mode
+
+## What is Used?
+
+1. Node
+2. Express
+3. React
+4. GraphQL
+5. Appollo Client
+6. Webpack
+7. Babel
 
 ## License
 
