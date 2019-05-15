@@ -16,11 +16,14 @@
 11. Display all the data received as the reponse of the query.
 12. Also query data by Id when user request for a particular launch item, on a separate page ( e.g. request on url `http://localhost:8080/launch/1` )
 
-## GraphiQL :black_square_button:
+## GraphQL App DEMO :video_camera:
+![](GraphQl-SpaceX-Demo.gif)
+
+## GraphiQL Playground:black_square_button:
 
 ![](graphiql.png)
 
-## GraphiQL DEMO :video_camera:
+## GraphiQL Playground DEMO :video_camera:
 
 ![](GraphiQL-demo.gif)
 
