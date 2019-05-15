@@ -3,23 +3,23 @@
 ## Description :clipboard:
 :bar_chart: A demo app for using GraphQl with React and SpaceX API
 
-1. We set up our server in node with express app for backend ( `localhost:5000/graphql` ) : server.js
-2. We set up our react application usin webpack and babel ( that runs webpack-dev-server for frontend on `localhost:3000` )
-3. We create schema and graphQl queries in `schema.js`
-4. We use axios to fetch data from SpaceX API inside the created queries. ( e.g. API URL: `https://api.spacexdata.com/v3/launches` )
-5. GraphiQL playground is available on `localhost:5000/graphql`. Check demo.
-6. We use Appolo Client to build UI in React that fetches data from GraphQL
-7. Created components and wrapped them inside `<AppoloProvider>` and passed appolo `client` to these components.
-8. Created Routes for home and individual pages using Reach router.
-9. Installed `graphql-tag` ( graphQl query parsing utility ) and import `gpl` from it, that parses GraphQL query strings into the standard GraphQL AST.
-10. Use `gpl` to query the data in front react app, from the schema we have create in our node application in backend.
-11. Display all the data received as the reponse of the query.
-12. Also query data by Id when user request for a particular launch item, on a separate page ( e.g. request on url `http://localhost:8080/launch/1` )
+1. :arrow_right: We set up our server in node with express app for backend ( `localhost:5000/graphql` ) : server.js
+2. :arrow_right: We set up our react application usin webpack and babel ( that runs webpack-dev-server for frontend on `localhost:3000` )
+3. :arrow_right: We create schema and graphQl queries in `schema.js`
+4. :arrow_right: We use axios to fetch data from SpaceX API inside the created queries. ( e.g. API URL: `https://api.spacexdata.com/v3/launches` )
+5. :arrow_right: GraphiQL playground is available on `localhost:5000/graphql`. Check demo.
+6. :arrow_right: We use Appolo Client to build UI in React that fetches data from GraphQL
+7. :arrow_right: Created components and wrapped them inside `<AppoloProvider>` and passed appolo `client` to these components.
+8. :arrow_right: Created Routes for home and individual pages using Reach router.
+9. :arrow_right: Installed `graphql-tag` ( graphQl query parsing utility ) and import `gpl` from it, that parses GraphQL query strings into the standard GraphQL AST.
+10. :arrow_right: Use `gpl` to query the data in front react app, from the schema we have create in our node application in backend.
+11. :arrow_right: Display all the data received as the reponse of the query.
+12. :arrow_right: Also query data by Id when user request for a particular launch item, on a separate page ( e.g. request on url `http://localhost:8080/launch/1` )
 
 ## GraphQL App DEMO :video_camera:
 ![](GraphQl-SpaceX-Demo.gif)
 
-## GraphiQL Playground:black_square_button:
+## GraphiQL Playground :black_square_button:
 
 ![](graphiql.png)
 
