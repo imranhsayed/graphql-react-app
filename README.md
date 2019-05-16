@@ -49,7 +49,7 @@ Appollo Client is way to use GraphQL to build client applications. It helps you 
 ## Instructions :point_right:
 
 * Graphiql is a tool that we can use as a client to make request to our server.
-* `Graph Ql will be avialable at `localhost:5000/graphql`
+* Graph Ql will be avialable at `localhost:5000/graphql`
 
 ## Common Commands :computer:
 
