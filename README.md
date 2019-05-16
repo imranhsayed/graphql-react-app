@@ -58,7 +58,7 @@ Appollo Client is way to use GraphQL to build client applications. It helps you 
 3. `npm run dev` would run both front end and backend servers on their respective ports, using concurrently
 4. `start` Runs the server at `localhost:5000/graphql` in non watch mode
 
-## Built With?
+## Built With :zap:
 
 1. Node
 2. Express
