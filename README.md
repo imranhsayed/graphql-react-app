@@ -8,7 +8,7 @@
 
 ## Details :scroll:
 
-1. :arrow_right: We have set up our backend server in node and express app ( `localhost:5000/graphql` ) in `server.js`
+1. :arrow_right: We have set up our backend server in node and express app ( `localhost:5000/graphql` ) in `server.js`.
 2. :arrow_right: React application is set up using webpack and babel ( that runs webpack-dev-server for the frontend on `localhost:8080` )
 3. :arrow_right: The schema and graphQl queries are created in `schema.js`
 4. :arrow_right: We have used axios to fetch data using SpaceX API, in the created queries. ( e.g. API URL: `https://api.spacexdata.com/v3/launches` )
