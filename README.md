@@ -1,7 +1,7 @@
 # GraphQL React Application
 
 ## Description :clipboard:
-> A demo app for using GraphQl, Appollo Client with React and SpaceX API
+> A demo app for using GraphQl, Appollo Client with React and SpaceX API.
 
 ## GraphQL App DEMO :video_camera:
 ![](GraphQl-SpaceX-Demo.gif)
